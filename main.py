@@ -12,13 +12,9 @@ def open_html(path):
         f.read()
 
 
-url = 'https://www.allsides.com/media-bias/media-bias-ratings'
+url = 'https://www.indeed.com/jobs?q=software%20developer&l=Seattle%2C%20WA&advn=6613095622180756'
 
 r = requests.get(url)
 soup = BeautifulSoup(r.content, 'html.parser')
-rows = soup.select('tbody tr')
-row = rows[1]
-name = row.select_one('.source-title').text.strip()
-print(name)
-
-save_html(r.content, 'google_com')
+rows = soup.select_one('.pageContent')
+print(rows)
