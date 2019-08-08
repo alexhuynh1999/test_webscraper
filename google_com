@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+
+
+  <meta charset="utf-8" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="description" content="What’s the bias of your favorite media outlet? See over 600 AllSides media bias ratings." />
+<meta property="og:image" content="https://www.allsides.com/sites/default/files/BiasChartV1Pt1-1200x630.jpg" />
+<meta property="og:description" content="What’s the bias of your favorite media outlet? See over 600 AllSides media bias ratings." />
+<meta property="og:title" content="AllSides Media Bias Ratings" />
+<meta property="og:url" content="https://www.allsides.com/media-bias/media-bias-ratings" />
+<meta name="twitter:site" content="@AllSidesNow" />
+<meta property="fb:app_id" content="555035668344688" />
+<link rel="shortcut icon" href="https://www.allsides.com/sites/default/files/logo-all-sides-20px_1.png" type="image/png" />
+<meta name="keywords" content="media bias ratings chart, media bias ratings allsides, news media bias ratings, media outlet bias ratings, media bias ratings website" />
+<link rel="canonical" href="https://www.allsides.com/media-bias/media-bias-ratings" />
+<link rel="shortlink" href="https://www.allsides.com/bias/bias-ratings" />
+<meta property="og:site_name" content="AllSides" />
+<meta property="og:type" content="article" />
+<meta name="twitter:url" content="https://www.allsides.com/media-bias/media-bias-ratings" />
+<meta name="twitter:title" content="Media Bias Ratings" />
+  <title>Media Bias Ratings AllSides</title>
+
+  
+
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta http-equiv="cleartype" content="on">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+
+
+  
+
+
+  
+
+  <link type="text/css" rel="stylesheet" href="https://www.allsides.com/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.allsides.com/sites/default/files/css/css_Xpk53j-Nc2P37iqwC_o8vcolmpv-9dRNAmxcM_Ticsg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.allsides.com/sites/default/files/css/css_50UMLL76lRAra85iAuJD0bP6KQfYFRA920LBZBBkE3s.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.allsides.com/sites/default/files/css/css_14lNaHUQzQHFVJLisEvw6Y1AVJ4u7wGzAIf2jeoTMUg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.allsides.com/sites/all/themes/allsides/css/allsides-uncompressed.css?pvw32m" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.allsides.com/sites/default/files/css/css_c0HpSdDs8iIaSLqzIjJ7V7kvYugQpp4s_7YLwwYfIzc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.allsides.com/sites/default/files/css/css_SXn3-nDZ6hIZx5598zuBtHM8tKjkiJJMTFqm2oeBLGI.css" media="all" />
+
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+    <!-- Put the following javascript before the closing </head> tag. -->
+
+    
+   <link rel="stylesheet" href="https://www.allsides.com/sites/all/themes/allsides/css/font-awesome/font-awesome.min.css">
+      
+</head>
+<body style="overflow-x: hidden" class="html not-front not-logged-in no-sidebars page-bias page-bias-bias-ratings section-media-bias page-views role-anonymous-user"  >
+    
+
+
+
+<!--  START My Custom Newsboard -->
+<div id="custom-news-board-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="custom-news-board-modal-label" aria-hidden="true">
+      <div class="newsitem-clipit-block">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h2 class="clipit-title">Personal News Boards</h2>
+        
+        <div class="row-fluid">
+          <div class="span8">
+                    <p class="clipit-description" >Save stories to read later or create you own news web site to share with anyone</p> 
+          </div>
+        </div>
+        
+
+        <div class="row-fluid">
+          <div class="span5 offset7">
+            <p class="join-allsides">Notify me when I can create my custom news board 
+            </p>
+            We will not share your email address
+            
+          </div>
+          
+        </div>
+        
+        <div class="login-register">
+          
+          <p class="already-on-allsides">Already on AllSides? <a href="#" id="newsitem-login-link" class="gray-bold-link">Log In</a></p>
+        </div>
+       
+        
+        
+      </div>
+      <div class="newsitem-login-block register-box register-box-log-in">
+        
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h2 class="clipit-title">Login to AllSides</h2>
+        
+      
+
+          <h2>with your favorite account</h2>
+
+            <div class="region region-popup-video">
+    <div id="block-hybridauth-hybridauth" class="block block-hybridauth first last odd">
+  
+  	  
+      	
+  <div class="hybridauth-widget-wrapper"><div class="item-list"><ul class="hybridauth-widget"><li class="first"><a href="/hybridauth/window/Facebook?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-allsides-32 hybridauth-facebook hybridauth-facebook-allsides-32" title="Facebook"><span class="element-invisible">Login with Facebook</span></span>
+</a></li>
+<li class="last"><a href="/hybridauth/window/Twitter?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" title="Twitter" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Twitter" data-hybridauth-url="/hybridauth/window/Twitter?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon twitter hybridauth-icon-allsides-32 hybridauth-twitter hybridauth-twitter-allsides-32" title="Twitter"><span class="element-invisible">Login with Twitter</span></span>
+</a></li>
+</ul></div></div>
+
+</div><!-- /.block -->
+  </div>
+          
+          <div class="row-fluid">
+            <div class="span12 dotted-or">
+              or
+            </div>
+          </div>
+
+          <h2>with username or email</h2>
+          
+      </div>
+
+      <div class="newsitem-register-block">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h2 id="myModalLabel">Sign Up for AllSides</h2>
+        </div>
+        <div class="modal-body">
+            <div class="region region-search-box">
+    <div id="block-views-5767deb371a429ecd4203d836f27b184" class="block block-views search-box first last odd">
+  
+  	  
+      	
+  <form class="ctools-auto-submit-full-form" onsubmit="if(this.search_block_form.value==&#039;&lt;enter search term here&gt;&#039;){ alert(&#039;Please enter a search&#039;); return false; }" action="/allsides-search-results" method="get" id="views-exposed-form-allsides-search-results-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-fulltext-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-search-api-views-fulltext">
+ <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;&lt;enter search term here&gt;&#039;;}" onfocus="if (this.value == &#039;&lt;enter search term here&gt;&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="&lt;enter search term here&gt;" size="380" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+          <div id="edit-created-wrapper" class="views-exposed-widget views-widget-filter-created">
+                        <div class="views-widget">
+          <input type="hidden" name="created" value="2" />
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="image" id="edit-submit--2" name="submit" src="/sites/all/themes/allsides/images/search-button.png" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>
+</div><!-- /.block -->
+  </div>
+        </div>
+      </div>
+
+
+</div>
+<!--  END Clip it modal -->
+
+
+
+
+
+
+
+
+<!--  START Clip it modal -->
+<div id="clipit-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="clipit-modal-label" aria-hidden="true">
+      <div class="newsitem-clipit-block">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h2 class="clipit-title">Save</h2>
+        
+        <div class="row-fluid">
+          <div class="span8">
+                    <p class="clipit-description" >"Save" saves this article for you to read later, share on 
+            multiple news networks, or publish on your own news board for others to follow. Become your own publisher! </p> 
+          </div>
+        </div>
+        
+
+        <div class="row-fluid">
+          <div class="span5 offset7">
+            <p class="join-allsides">Join AllSides to read, share 
+            and understand all perspectives of today's news and issues. 
+            </p>
+            <a href="/user/register" class="gray-bold-link">Learn more »</a>
+            
+          </div>
+          
+        </div>
+        
+        <div class="login-register">
+          <a href="/user/register" class="btn btn-success">Join Now</a>
+          	  <p class="already-on-allsides">Already on AllSides? <a href="/user/login" id="newsitem-login-link" class="gray-bold-link">Log In</a></p>
+        </div>
+                      
+      </div>
+      <div class="newsitem-login-block register-box register-box-log-in">
+        
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h2 class="clipit-title">Login to AllSides</h2>
+
+          <h2>with your favorite account</h2>
+
+            <div class="region region-popup-video">
+      <div class="region region-popup-video">
+    <div id="block-hybridauth-hybridauth" class="block block-hybridauth first last odd">
+  
+  	  
+      	
+  <div class="hybridauth-widget-wrapper"><div class="item-list"><ul class="hybridauth-widget"><li class="first"><a href="/hybridauth/window/Facebook?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-allsides-32 hybridauth-facebook hybridauth-facebook-allsides-32" title="Facebook"><span class="element-invisible">Login with Facebook</span></span>
+</a></li>
+<li class="last"><a href="/hybridauth/window/Twitter?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" title="Twitter" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Twitter" data-hybridauth-url="/hybridauth/window/Twitter?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon twitter hybridauth-icon-allsides-32 hybridauth-twitter hybridauth-twitter-allsides-32" title="Twitter"><span class="element-invisible">Login with Twitter</span></span>
+</a></li>
+</ul></div></div>
+
+</div><!-- /.block -->
+  </div>
+  </div>
+          
+          <div class="row-fluid">
+            <div class="span12 dotted-or">
+              or
+            </div>
+          </div>
+
+          <h2>with username or email</h2>
+          
+      </div>
+
+      <div class="newsitem-register-block">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h2 id="myModalLabel">Sign Up for AllSides</h2>
+        </div>
+        <div class="modal-body">
+            <div class="region region-search-box">
+      <div class="region region-search-box">
+    <div id="block-views-5767deb371a429ecd4203d836f27b184" class="block block-views search-box first last odd">
+  
+  	  
+      	
+  <form class="ctools-auto-submit-full-form" onsubmit="if(this.search_block_form.value==&#039;&lt;enter search term here&gt;&#039;){ alert(&#039;Please enter a search&#039;); return false; }" action="/allsides-search-results" method="get" id="views-exposed-form-allsides-search-results-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-fulltext-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-search-api-views-fulltext">
+ <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;&lt;enter search term here&gt;&#039;;}" onfocus="if (this.value == &#039;&lt;enter search term here&gt;&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="&lt;enter search term here&gt;" size="380" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+          <div id="edit-created-wrapper" class="views-exposed-widget views-widget-filter-created">
+                        <div class="views-widget">
+          <input type="hidden" name="created" value="2" />
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="image" id="edit-submit--2" name="submit" src="/sites/all/themes/allsides/images/search-button.png" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>
+</div><!-- /.block -->
+  </div>
+  </div>
+        </div>
+      </div>
+
+
+</div>
+<!--  END Clip it modal -->
+
+
+
+
+
+
+
+<!-- START Add Headline Modal -->
+<div id="addHeadline" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Add Headline</h3>
+  </div>
+  <div class="modal-body">
+      </div>
+
+</div>
+<!-- Add Headline Modal -->
+
+
+<!-- nav-->
+<div class="logo-container-responsive">
+    <a href="/unbiased-balanced-news" title="AllSides" class="allsides-logo"><img class="margin-bottom-10" width="180" src="/sites/all/themes/allsides/images/logo-all-sides-big.png" alt="AllSides" title="AllSides"></a>
+
+  
+
+</div>
+
+<div id="navbar-allsides">
+
+
+<div class="navbar navbar-fixed-top navbar-allsides">
+  <div class="navbar-inner">
+
+      
+    <!-- START Search -->
+    <div class="dropdown-search-wrapper">
+            <button type="button" class="close search-close" aria-hidden="true">×</button>
+                          <div id="search-box-top" class="search-box container">
+
+                  <div class="region region-search-box">
+      <div class="region region-search-box">
+      <div class="region region-search-box">
+    <div id="block-views-5767deb371a429ecd4203d836f27b184" class="block block-views search-box first last odd">
+  
+  	  
+      	
+  <form class="ctools-auto-submit-full-form" onsubmit="if(this.search_block_form.value==&#039;&lt;enter search term here&gt;&#039;){ alert(&#039;Please enter a search&#039;); return false; }" action="/allsides-search-results" method="get" id="views-exposed-form-allsides-search-results-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-fulltext-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-search-api-views-fulltext">
+ <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;&lt;enter search term here&gt;&#039;;}" onfocus="if (this.value == &#039;&lt;enter search term here&gt;&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="&lt;enter search term here&gt;" size="380" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+          <div id="edit-created-wrapper" class="views-exposed-widget views-widget-filter-created">
+                        <div class="views-widget">
+          <input type="hidden" name="created" value="2" />
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="image" id="edit-submit--2" name="submit" src="/sites/all/themes/allsides/images/search-button.png" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>
+</div><!-- /.block -->
+  </div>
+  </div>
+  </div>
+              </div>
+            
+    </div>
+    <!-- END Search -->
+
+
+    
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      
+      <div class="nav-collapse collapse navbar-responsive-collapse">
+
+        <div class="container">
+
+
+          <div class="row-fluid">
+            <div class="logo-area">
+              <div class="logo-container">
+                <a href="/unbiased-balanced-news" title="AllSides" class="allsides-logo"><img class="margin-bottom-10" width="180" src="/sites/all/themes/allsides/images/logo-all-sides-big.png" alt="AllSides" title="AllSides"></a>
+              </div>
+            </div>
+
+
+            <div class="message-area">
+              <a class="homepage-message" href="/about">
+
+
+
+                                  <h3 class="header-message">Don’t be fooled by media bias and fake news.</h3>
+                
+
+
+              <p class="header-sub-message">Unbiased news does not exist; we provide balanced news and civil discourse.</p></a>
+            </div>
+
+            <div class="login-area">
+              <!-- START Sign In Sign Out and User Menu -->
+              <ul id="right-navigation" class="nav pull-right ">
+                
+                
+
+                
+                <!-- <li class="divider-vertical"></li> -->
+
+               
+
+                              
+                <li class="responsive-menu-item">
+                  <div class="row-fluid">
+                    <div class="span6"><a href="https://www.allsides.com/user/register" title="Sign Up" class="btn btn-small btn-success span6">Sign Up</a></div>
+                    <div class="span6"><a href="https://www.allsides.com/user/login" title="Log In" class="btn btn-small span6">Log In</a></div>
+                  </div>
+                  
+                  
+                </li>
+
+
+               <li class="dropdown menu-fullscreen">
+                		<a href="/user/login" title="Login" id="user-menu-item" class="user-menu-item">
+                     <div id="signup-login" class="btn btn-small btn-success signup-login">Sign Up | Log In</div>        
+                </a>
+
+
+                 <ul class="dropdown-menu sign-up-in-popup-menu-ul"> 
+
+                  <li>
+                    <!-- ***********************   START User box *********************  -->                     
+                            <div id="sign-up-in-popup-menu" class="secondary-menu-container ">  
+                             <nav id="secondary-menu" role="navigation">
+                               <h2 class="element-invisible">User menu</h2>
+                                <h2>Sign Up | Log In </h2>
+                               <h3>with your favorite account</h3>
+
+                                <div class="social-login">  <div class="region region-popup-video">
+      <div class="region region-popup-video">
+      <div class="region region-popup-video">
+    <div id="block-hybridauth-hybridauth" class="block block-hybridauth first last odd">
+  
+  	  
+      	
+  <div class="hybridauth-widget-wrapper"><div class="item-list"><ul class="hybridauth-widget"><li class="first"><a href="/hybridauth/window/Facebook?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-allsides-32 hybridauth-facebook hybridauth-facebook-allsides-32" title="Facebook"><span class="element-invisible">Login with Facebook</span></span>
+</a></li>
+<li class="last"><a href="/hybridauth/window/Twitter?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" title="Twitter" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Twitter" data-hybridauth-url="/hybridauth/window/Twitter?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon twitter hybridauth-icon-allsides-32 hybridauth-twitter hybridauth-twitter-allsides-32" title="Twitter"><span class="element-invisible">Login with Twitter</span></span>
+</a></li>
+</ul></div></div>
+
+</div><!-- /.block -->
+  </div>
+  </div>
+  </div>
+</div>
+                               <div class="dotted-or">or</div>
+                               <h3>with AllSides</h3>
+                                <ul class="links inline clearfix">
+                                  <!-- <li class="first"><a href="/join-us" title="" class="btn btn-small btn-primary">Join Us</a></li> -->
+                                  <a href="https://www.allsides.com/user/register" title="" class="btn btn-small btn-success">Sign Up</a>
+                                  <a href="https://www.allsides.com/user/login" title="" class="btn btn-small">Log In</a>
+                                </ul>                  
+                              </nav>
+                            </div>                             
+                      <!-- ***********************   END User box *********************  -->
+                  </li>
+
+
+                 </ul>
+               </li>
+
+
+
+                   
+                
+
+
+              </ul>
+              <!-- END Sign In Sign Out and User Menu -->
+            </div>
+          </div>
+          
+
+
+          
+
+        </div>
+        
+        <div class="nmm">
+            <div class="main-menu-wrapper new-main-menu">     
+              <div class="container">
+                  <div class="region region-menu-miscelaneous">
+    <div id="block-menu-menu-new-main-menu" class="block block-menu new-menu first last odd" role="navigation">
+  
+  	  
+      	
+  <ul class="menu"><li class="menu__item is-expanded first expanded menu-item-important menu-get-balanced-news"><a href="/news" style="text-transform: uppercase;" class="menu__link">News</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/unbiased-balanced-news" class="menu__link">Balanced News</a></li>
+<li class="menu__item is-leaf leaf"><a href="/blog" class="menu__link">Perspectives Blog</a></li>
+<li class="menu__item is-leaf leaf"><a href="/tags/story-week" class="menu__link">Story of the Week</a></li>
+<li class="menu__item is-leaf leaf"><a href="/editorial-philosophy" class="menu__link">Editorial Philosophy</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/apps-extensions" class="menu__link">Apps &amp; Extensions</a></li>
+</ul></li>
+<li class="menu__item is-expanded is-active-trail expanded active-trail menu-item-important menu-rate-bias"><a href="/media-bias/media-bias-ratings" style="text-transform: uppercase;" class="menu__link is-active-trail active-trail active">Media Bias</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/media-bias/media-bias-ratings" class="menu__link">Media Bias Ratings</a></li>
+<li class="menu__item is-leaf leaf"><a href="/media-bias/media-bias-chart" class="menu__link">Media Bias Chart</a></li>
+<li class="menu__item is-leaf leaf"><a href="/media-bias/about-bias" class="menu__link">How We Rate Media Bias</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/rate-own-bias" class="menu__link">Discover Your Own Bias</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link"><a href="/topics-issues" style="text-transform: uppercase;" class="menu__link">Topics</a></li>
+<li class="menu__item is-leaf leaf menu-item-search" style="text-align:center;"><a href="/allsides-search-results" style="content:&#039;&#039;; text-transform: uppercase;" class="menu__link">Balanced Search</a></li>
+<li class="menu__item is-expanded expanded menu-item-important"><a href="/civil-discourse" style="text-transform: uppercase;" class="menu__link">Conversation</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/civil-discourse" class="menu__link">Civil Discourse</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://www.mismatch.org" class="menu__link">Mismatch.org</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link menu-dictionary"><a href="/dictionary" style="text-transform: uppercase;" class="menu__link">Dictionary</a></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link menu-schools"><a href="https://www.allsidesforschools.org" style="text-transform: uppercase;" target="_blank" class="menu__link">Schools</a></li>
+<li class="menu__item is-expanded last expanded menu-item-important"><a href="/about" style="text-transform: uppercase;" class="menu__link">About</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/about" class="menu__link">About Us</a></li>
+<li class="menu__item is-leaf leaf separator-below"><a href="/about/press-bias-ratings-school-programs" class="menu__link">Press</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.allsides.com/frequently-asked-questions" class="menu__link">FAQ</a></li>
+<li class="menu__item is-leaf leaf"><a href="/about-us" class="menu__link">Our Team</a></li>
+<li class="menu__item is-leaf leaf"><a href="/syndication" class="menu__link">Syndication</a></li>
+<li class="menu__item is-leaf leaf"><a href="/job-openings" class="menu__link">Job Openings</a></li>
+<li class="menu__item is-leaf leaf"><a href="/contact" class="menu__link">Contact Us</a></li>
+<li class="menu__item is-leaf last leaf menu-item-direct-link"><a href="/donate" class="menu__link">DONATE</a></li>
+</ul></li>
+</ul>
+</div><!-- /.block -->
+  </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="nmm-sub">
+            <div class="main-menu-wrapper new-main-menu">     
+              <div class="container">
+                  <div class="region region-menu-miscelaneous">
+      <div class="region region-menu-miscelaneous">
+    <div id="block-menu-menu-new-main-menu" class="block block-menu new-menu first last odd" role="navigation">
+  
+  	  
+      	
+  <ul class="menu"><li class="menu__item is-expanded first expanded menu-item-important menu-get-balanced-news"><a href="/news" style="text-transform: uppercase;" class="menu__link">News</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/unbiased-balanced-news" class="menu__link">Balanced News</a></li>
+<li class="menu__item is-leaf leaf"><a href="/blog" class="menu__link">Perspectives Blog</a></li>
+<li class="menu__item is-leaf leaf"><a href="/tags/story-week" class="menu__link">Story of the Week</a></li>
+<li class="menu__item is-leaf leaf"><a href="/editorial-philosophy" class="menu__link">Editorial Philosophy</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/apps-extensions" class="menu__link">Apps &amp; Extensions</a></li>
+</ul></li>
+<li class="menu__item is-expanded is-active-trail expanded active-trail menu-item-important menu-rate-bias"><a href="/media-bias/media-bias-ratings" style="text-transform: uppercase;" class="menu__link is-active-trail active-trail active">Media Bias</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/media-bias/media-bias-ratings" class="menu__link">Media Bias Ratings</a></li>
+<li class="menu__item is-leaf leaf"><a href="/media-bias/media-bias-chart" class="menu__link">Media Bias Chart</a></li>
+<li class="menu__item is-leaf leaf"><a href="/media-bias/about-bias" class="menu__link">How We Rate Media Bias</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/rate-own-bias" class="menu__link">Discover Your Own Bias</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link"><a href="/topics-issues" style="text-transform: uppercase;" class="menu__link">Topics</a></li>
+<li class="menu__item is-leaf leaf menu-item-search" style="text-align:center;"><a href="/allsides-search-results" style="content:&#039;&#039;; text-transform: uppercase;" class="menu__link">Balanced Search</a></li>
+<li class="menu__item is-expanded expanded menu-item-important"><a href="/civil-discourse" style="text-transform: uppercase;" class="menu__link">Conversation</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/civil-discourse" class="menu__link">Civil Discourse</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://www.mismatch.org" class="menu__link">Mismatch.org</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link menu-dictionary"><a href="/dictionary" style="text-transform: uppercase;" class="menu__link">Dictionary</a></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link menu-schools"><a href="https://www.allsidesforschools.org" style="text-transform: uppercase;" target="_blank" class="menu__link">Schools</a></li>
+<li class="menu__item is-expanded last expanded menu-item-important"><a href="/about" style="text-transform: uppercase;" class="menu__link">About</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/about" class="menu__link">About Us</a></li>
+<li class="menu__item is-leaf leaf separator-below"><a href="/about/press-bias-ratings-school-programs" class="menu__link">Press</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.allsides.com/frequently-asked-questions" class="menu__link">FAQ</a></li>
+<li class="menu__item is-leaf leaf"><a href="/about-us" class="menu__link">Our Team</a></li>
+<li class="menu__item is-leaf leaf"><a href="/syndication" class="menu__link">Syndication</a></li>
+<li class="menu__item is-leaf leaf"><a href="/job-openings" class="menu__link">Job Openings</a></li>
+<li class="menu__item is-leaf leaf"><a href="/contact" class="menu__link">Contact Us</a></li>
+<li class="menu__item is-leaf last leaf menu-item-direct-link"><a href="/donate" class="menu__link">DONATE</a></li>
+</ul></li>
+</ul>
+</div><!-- /.block -->
+  </div>
+  </div>
+              </div>
+            </div>
+
+        </div>
+
+
+
+
+        
+
+
+      
+      </div><!-- /.nav-collapse -->
+  </div><!-- /.navbar-inner -->
+</div><!-- /.navbar -->
+
+
+
+
+<!-- //////////////////   START Stciky Nav ///////////////////////////   -->
+
+<div class="navbar  navbar-allsides navbar-allsides-sticky">
+
+
+
+      
+      <div class="nav-collapse collapse navbar-responsive-collapse">
+
+        <div class="container">
+
+
+          <div class="row-fluid">
+            <div class="logo-area">
+              <div class="logo-container">
+                <a href="/unbiased-balanced-news" title="AllSides" class="allsides-logo"><img class="margin-bottom-10" width="140" src="/sites/all/themes/allsides/images/logo-all-sides-big.png" alt="AllSides" title="AllSides"></a>
+              </div>
+            </div>
+
+
+            <div class="message-area">
+                
+                <div class="container">
+                    <div class="region region-menu-miscelaneous">
+      <div class="region region-menu-miscelaneous">
+      <div class="region region-menu-miscelaneous">
+    <div id="block-menu-menu-new-main-menu" class="block block-menu new-menu first last odd" role="navigation">
+  
+  	  
+      	
+  <ul class="menu"><li class="menu__item is-expanded first expanded menu-item-important menu-get-balanced-news"><a href="/news" style="text-transform: uppercase;" class="menu__link">News</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/unbiased-balanced-news" class="menu__link">Balanced News</a></li>
+<li class="menu__item is-leaf leaf"><a href="/blog" class="menu__link">Perspectives Blog</a></li>
+<li class="menu__item is-leaf leaf"><a href="/tags/story-week" class="menu__link">Story of the Week</a></li>
+<li class="menu__item is-leaf leaf"><a href="/editorial-philosophy" class="menu__link">Editorial Philosophy</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/apps-extensions" class="menu__link">Apps &amp; Extensions</a></li>
+</ul></li>
+<li class="menu__item is-expanded is-active-trail expanded active-trail menu-item-important menu-rate-bias"><a href="/media-bias/media-bias-ratings" style="text-transform: uppercase;" class="menu__link is-active-trail active-trail active">Media Bias</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/media-bias/media-bias-ratings" class="menu__link">Media Bias Ratings</a></li>
+<li class="menu__item is-leaf leaf"><a href="/media-bias/media-bias-chart" class="menu__link">Media Bias Chart</a></li>
+<li class="menu__item is-leaf leaf"><a href="/media-bias/about-bias" class="menu__link">How We Rate Media Bias</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/rate-own-bias" class="menu__link">Discover Your Own Bias</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link"><a href="/topics-issues" style="text-transform: uppercase;" class="menu__link">Topics</a></li>
+<li class="menu__item is-leaf leaf menu-item-search" style="text-align:center;"><a href="/allsides-search-results" style="content:&#039;&#039;; text-transform: uppercase;" class="menu__link">Balanced Search</a></li>
+<li class="menu__item is-expanded expanded menu-item-important"><a href="/civil-discourse" style="text-transform: uppercase;" class="menu__link">Conversation</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/civil-discourse" class="menu__link">Civil Discourse</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://www.mismatch.org" class="menu__link">Mismatch.org</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link menu-dictionary"><a href="/dictionary" style="text-transform: uppercase;" class="menu__link">Dictionary</a></li>
+<li class="menu__item is-leaf leaf menu-item-direct-link menu-schools"><a href="https://www.allsidesforschools.org" style="text-transform: uppercase;" target="_blank" class="menu__link">Schools</a></li>
+<li class="menu__item is-expanded last expanded menu-item-important"><a href="/about" style="text-transform: uppercase;" class="menu__link">About</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/about" class="menu__link">About Us</a></li>
+<li class="menu__item is-leaf leaf separator-below"><a href="/about/press-bias-ratings-school-programs" class="menu__link">Press</a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.allsides.com/frequently-asked-questions" class="menu__link">FAQ</a></li>
+<li class="menu__item is-leaf leaf"><a href="/about-us" class="menu__link">Our Team</a></li>
+<li class="menu__item is-leaf leaf"><a href="/syndication" class="menu__link">Syndication</a></li>
+<li class="menu__item is-leaf leaf"><a href="/job-openings" class="menu__link">Job Openings</a></li>
+<li class="menu__item is-leaf leaf"><a href="/contact" class="menu__link">Contact Us</a></li>
+<li class="menu__item is-leaf last leaf menu-item-direct-link"><a href="/donate" class="menu__link">DONATE</a></li>
+</ul></li>
+</ul>
+</div><!-- /.block -->
+  </div>
+  </div>
+  </div>
+                </div>
+
+            </div>
+
+            <div class="login-area">
+              <!-- START Sign In Sign Out and User Menu -->
+              <ul id="right-navigation" class="nav pull-right ">
+                
+                
+
+                
+                <!-- <li class="divider-vertical"></li> -->
+
+               
+
+                              
+                <li class="responsive-menu-item">
+                  <div class="row-fluid">
+                    <div class="span6"><a href="https://www.allsides.com/user/register" title="Sign Up" class="btn btn-small btn-success span6">Sign Up</a></div>
+                    <div class="span6"><a href="https://www.allsides.com/user/login" title="Log In" class="btn btn-small span6">Log In</a></div>
+                  </div>
+                  
+                  
+                </li>
+
+
+               <li class="dropdown menu-fullscreen">
+                <a href="#" title="About" id="user-menu-item" class="user-menu-item dropdown-toggle" data-toggle="dropdown">
+                     <!-- <div id="signup-login" class="btn btn-small btn-success signup-login">Sign Up | Log In</div>  -->    
+                     <i class="fa fa-user" aria-hidden="true"></i>   
+                </a>
+
+
+                 <ul class="dropdown-menu sign-up-in-popup-menu-ul"> 
+
+                  <li>
+                    <!-- ***********************   START User box *********************  -->                     
+                            <div id="sign-up-in-popup-menu" class="secondary-menu-container ">  
+                             <nav id="secondary-menu" role="navigation">
+                               <h2 class="element-invisible">User menu</h2>
+                                <h2>Sign Up | Log In </h2>
+                               <h3>with your favorite account</h3>
+
+                                <div class="social-login">  <div class="region region-popup-video">
+      <div class="region region-popup-video">
+      <div class="region region-popup-video">
+      <div class="region region-popup-video">
+    <div id="block-hybridauth-hybridauth" class="block block-hybridauth first last odd">
+  
+  	  
+      	
+  <div class="hybridauth-widget-wrapper"><div class="item-list"><ul class="hybridauth-widget"><li class="first"><a href="/hybridauth/window/Facebook?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-allsides-32 hybridauth-facebook hybridauth-facebook-allsides-32" title="Facebook"><span class="element-invisible">Login with Facebook</span></span>
+</a></li>
+<li class="last"><a href="/hybridauth/window/Twitter?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" title="Twitter" class="hybridauth-widget-provider hybridauth-onclick-current" rel="nofollow" data-hybridauth-provider="Twitter" data-hybridauth-url="/hybridauth/window/Twitter?destination=user/%5Bcurrent-user%3Auid%5D&amp;destination_error=bias/bias-ratings" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon twitter hybridauth-icon-allsides-32 hybridauth-twitter hybridauth-twitter-allsides-32" title="Twitter"><span class="element-invisible">Login with Twitter</span></span>
+</a></li>
+</ul></div></div>
+
+</div><!-- /.block -->
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+                               <div class="dotted-or">or</div>
+                               <h3>with AllSides</h3>
+                                <ul class="links inline clearfix">
+                                  <!-- <li class="first"><a href="/join-us" title="" class="btn btn-small btn-primary">Join Us</a></li> -->
+                                  <a href="https://www.allsides.com/user/register" title="" class="btn btn-small btn-success">Sign Up</a>
+                                  <a href="https://www.allsides.com/user/login" title="" class="btn btn-small">Log In</a>
+                                </ul>                  
+                              </nav>
+                            </div>                             
+                      <!-- ***********************   END User box *********************  -->
+                  </li>
+
+
+                 </ul>
+               </li>
+
+
+
+                   
+                
+
+
+              </ul>
+              <!-- END Sign In Sign Out and User Menu -->
+            </div>
+          </div>
+          
+
+
+          
+
+        </div>
+
+
+
+
+
+      </div><!-- /.nav-collapse -->
+
+</div>
+
+
+
+<!-- ////////////////////////////////  END Nav /////////////////////////  -->
+
+<h3 class="header-message header-message-mobile">Don’t be fooled by media bias and fake news.</h3>
+</div> <!-- END #navbar-allsides -->
+
+<div id="user_roles" style="display:none">anonymous user</div>
+
+
+<!-- 
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ -->
+     
+
+
+<div id="wrapper" class="container">
+
+<!-- <div id="gray-stripe">
+  <div id="color-stripes">
+    <div id="blue-stripe"></div>
+    <div id="light-blue-stripe"></div>
+    <div id="purple-stripe"></div>
+    <div id="pink-stripe"></div>
+    <div id="red-stripe"></div>
+  </div>
+</div>
+ -->
+<div id="page" class="view-mode-teaser">
+
+  
+
+  <div id="main" class="clearfix ">
+
+      <div class="row-fluid normal-title">
+                        <a id="main-content"></a>
+                          <h1 class="title" id="page-title">Media Bias Ratings</h1>
+                                          <div class="region region-help">
+    <div id="block-block-92" class="block block-block first odd">
+  
+  	  
+      	
+  <h3>AllSides Media Bias Ratings help you identify different perspectives so you can know more, understand others, and think for yourself.</h3>
+<p style="font-size:16px;"><b>We've rated the bias of nearly 600 media outlets and writers. <a href="#ratings"><span style="font-size:16px; font-weight:700;">Scroll down to see the full list of media bias ratings</span></a></b>.</p>
+
+<div class="row-fluid" style="margin-top:20px;">
+      <div style="text-align: center;" class="span6">
+      <a href="/media-bias/media-bias-chart"><img style="border: 1px solid #353C40; margin-bottom:10px;" src="https://www.allsides.com/sites/default/files/AllSidesMediaBiasChart-Version1.1_0.jpg"  /></a>
+<div style="text-align: center;" class="sharethis-inline-share-buttons"></div>
+      </div>
+      <div class="span6">
+<p style="font-size:16px;">By making the political leanings of hundreds of media sources transparent, AllSides frees people from filter bubbles so we can better understand the world — and each other.</p>
+
+<p style="font-size:16px;">Our Media Bias Ratings are determined using <a href="https://www.allsides.com/media-bias/about-bias" target="_blank">multiple methods</a> and represent the average judgment of Americans. They are based on blind surveys of people across the political spectrum, multi-partisan analysis, editorial reviews, third party data, and tens of thousands of user feedback ratings. Our scientifically-generated ratings are fluid and subject to change as new information is gathered and biases change over time.</p>
+
+<p style="font-size:16px;">Unless otherwise noted as editorial content, <strong>all bias ratings are based on online versions of news coverage, not TV, print, or radio content.</strong></p>
+
+<p style="font-size:16px;">While there <em>should</em> be a difference between the media bias seen in news coverage and the bias revealed in opinion and editorial content, increasingly there is not. AllSides often provides separate media bias ratings for news and opinion/editorial content from the same source.</p>
+
+<div style="font-size:16px; font-weight: 600;">
+<p><a href="/media-bias/media-bias-chart" target="_blank">Learn more about our Media Bias Chart.</a></p>
+<p><a href="https://www.allsides.com/media-bias/media-bias-rating-methods" target="_blank">Learn more about how we rate media bias.</a></p>
+<p>Learn about what the media bias ratings mean:<br/>
+<a href="/media-bias/left" target="_blank">Left</a>&nbsp;-&nbsp;<a href="/media-bias/left-center" target="_blank">Lean Left</a>&nbsp;-&nbsp;<a href="/media-bias/center" target="_blank">Center</a>&nbsp;-&nbsp;<a href="/media-bias/right-center" target="_blank">Lean Right</a>&nbsp;-&nbsp;<a href="/media-bias/right" target="_blank">Right</a>&nbsp;-&nbsp;<a href="/media-bias/allsides" target="_blank">Mixed</p>
+</div>
+
+      </div>
+    </div>
+</div><!-- /.block -->
+<div id="block-block-95" class="block block-block last even">
+  
+  	  
+      	
+  <div style="background-color: #f5f5f5; margin: 20px auto; border:1px; border-color:#888;" class="row-fluid">
+      <div style="padding: 0 20px; margin: 20px 0;" class="span6">
+<h4 style="margin-top: 0;">Discover your bias</h4>
+<p style="font-size:16px;"><a href="https://www.allsides.com/rate-own-bias">Rate your own bias</a> and see how you compare to others. Remember, your own bias impacts what you think and feel.</p>
+<h4 style="margin-top: 20px;">Help improve our ratings</h4>
+<p style="font-size:16px;">For each of the sources below, you have the option to click <strong>agree</strong> or <strong>disagree</strong>. Your feedback is extremely valuable when we update our bias ratings.</p>
+      </div>
+      <div style="padding: 0 20px; margin: 20px 0;" class="span6">
+<h4 style="margin-top: 0;">Suggest a source we’re missing</h4>
+<p style="font-size:16px;">Before contacting us, please make sure to  look through all of our all of our ratings, not just our featured ratings, to ensure we have not already reviewed the source you have in mind. You can <a href="https://www.allsides.com/media-bias/media-bias-ratings?field_featured_bias_rating_value=All#ratings">see all media bias ratings by clicking here</a> or by adjusting the filters below.</p>
+<p style="font-size:16px;">Still don’t see your source? <a href="mailto:feedback@allsides.com?subject=Missing Source Suggestion&amp;body=Please add the following source(s):" target="_blank">Send us an email</a> including the source name, details, and how you think its bias should be rated.</p>
+      </div>
+<a id="ratings"></a>
+    </div>
+
+<hr>
+
+<h3>Media Bias Ratings</h3>
+<label class="media-bias-head">Adjust Filters</label>
+<label class="media-bias-subhead">Only shows featured sources by default.</label>
+</div><!-- /.block -->
+  </div>
+              </div><!--.normal-title -->
+
+      <div class="row-fluid normal-body">
+        <div 
+                            >
+        
+          <div id="content" class="column" role="main">
+            
+            <div class="view view-allsides-daily-administration-news-sources view-id-allsides_daily_administration_news_sources view-display-id-page_1 bias-raitings-list view-dom-id-68e8027772647378c2789ad5549cd962">
+        
+      <div class="view-filters">
+      <form class="ctools-auto-submit-full-form" action="/media-bias/media-bias-ratings" method="get" id="views-exposed-form-allsides-daily-administration-news-sources-page-1" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-field-featured-bias-rating-value-wrapper" class="views-exposed-widget views-widget-filter-field_featured_bias_rating_value">
+                  <label for="edit-field-featured-bias-rating-value">
+            Sources          </label>
+                        <div class="views-widget">
+          <div id="edit-field-featured-bias-rating-value" class="form-radios"><div class="form-item form-type-radio form-item-field-featured-bias-rating-value">
+ <input type="radio" id="edit-field-featured-bias-rating-value-all" name="field_featured_bias_rating_value" value="All" class="form-radio" />  <label class="option" for="edit-field-featured-bias-rating-value-all">All Sources </label>
+
+</div>
+<div class="form-item form-type-radio form-item-field-featured-bias-rating-value">
+ <input type="radio" id="edit-field-featured-bias-rating-value-1" name="field_featured_bias_rating_value" value="1" checked="checked" class="form-radio" />  <label class="option" for="edit-field-featured-bias-rating-value-1">Featured Sources </label>
+
+</div>
+</div>        </div>
+              </div>
+          <div id="edit-field-news-source-type-tid-wrapper" class="views-exposed-widget views-widget-filter-field_news_source_type_tid">
+                  <label for="edit-field-news-source-type-tid">
+            Type          </label>
+                        <div class="views-widget">
+          <div id="edit-field-news-source-type-tid" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-field-news-source-type-tid-1">
+ <input type="checkbox" id="edit-field-news-source-type-tid-1" name="field_news_source_type_tid[1]" value="1" class="form-checkbox" />  <label class="option" for="edit-field-news-source-type-tid-1">Author </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-field-news-source-type-tid-2">
+ <input type="checkbox" id="edit-field-news-source-type-tid-2" name="field_news_source_type_tid[2]" value="2" checked="checked" class="form-checkbox" />  <label class="option" for="edit-field-news-source-type-tid-2">News Media </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-field-news-source-type-tid-3">
+ <input type="checkbox" id="edit-field-news-source-type-tid-3" name="field_news_source_type_tid[3]" value="3" class="form-checkbox" />  <label class="option" for="edit-field-news-source-type-tid-3">Think Tank / Policy Group </label>
+
+</div>
+</div>        </div>
+              </div>
+          <div id="edit-field-news-bias-nid-1-wrapper" class="views-exposed-widget views-widget-filter-field_news_bias_nid_1">
+                  <label for="edit-field-news-bias-nid-1">
+            Bias Rating          </label>
+                        <div class="views-widget">
+          <div id="edit-field-news-bias-nid-1" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-field-news-bias-nid-1-1">
+ <input type="checkbox" id="edit-field-news-bias-nid-1-1" name="field_news_bias_nid_1[1]" value="1" checked="checked" class="form-checkbox" />  <label class="option" for="edit-field-news-bias-nid-1-1">Left </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-field-news-bias-nid-1-2">
+ <input type="checkbox" id="edit-field-news-bias-nid-1-2" name="field_news_bias_nid_1[2]" value="2" checked="checked" class="form-checkbox" />  <label class="option" for="edit-field-news-bias-nid-1-2">Center </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-field-news-bias-nid-1-3">
+ <input type="checkbox" id="edit-field-news-bias-nid-1-3" name="field_news_bias_nid_1[3]" value="3" checked="checked" class="form-checkbox" />  <label class="option" for="edit-field-news-bias-nid-1-3">Right </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-field-news-bias-nid-1-4">
+ <input type="checkbox" id="edit-field-news-bias-nid-1-4" name="field_news_bias_nid_1[4]" value="4" class="form-checkbox" />  <label class="option" for="edit-field-news-bias-nid-1-4">Not Rated </label>
+
+</div>
+</div>        </div>
+              </div>
+          <div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Search All Ratings          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-title">
+ <input class="ctools-auto-submit-exclude form-text" type="text" id="edit-title" name="title" value="" size="30" maxlength="128" />
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input class="ctools-use-ajax ctools-auto-submit-click form-submit" type="submit" id="edit-submit-allsides-daily-administration-news-sources" name="" value="Go" />    </div>
+          <div class="views-exposed-widget views-reset-button">
+        <input type="submit" id="edit-reset" name="op" value="Reset" class="form-submit" />      </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+      <div class="view-content">
+    	
+      		<table  class="views-table cols-4">
+         <thead>
+      <tr>
+                  <th  class="views-field views-field-title" scope="col">
+            News Source          </th>
+                  <th  class="views-field views-field-field-bias-image" scope="col">
+            AllSides Bias Rating          </th>
+                  <th  class="views-field views-field-nothing-1" scope="col">
+            What do you think?          </th>
+                  <th  class="views-field views-field-nothing community-feedback-label" scope="col">
+            Community feedback (biased, not normalized)          </th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr  class="odd views-row-first">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/abc-news-media-bias">ABC News</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left-center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-leaning-left.png?itok=mtG3ToEN" width="144" height="24" alt="Political News Media Bias Rating: Lean Left" title="Political News Media Bias Rating: Lean Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-f13adc4a6caee57d894f9d7ef192d7f3 rate-node-76-4-1" id="rate-node-76-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-3" rel="nofollow" href="/media-bias/media-bias-ratings?rate=zmyDLixxBj_ytZsb_p9D32b0gPWtDEaeOSu_YIdkTIc" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-4" rel="nofollow" href="/media-bias/media-bias-ratings?rate=NVPEc99dVr71u-M_u1Cs0cncQHY5eU_UZwtkj7Sq23k" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">12337</span>/<span class="disagree">8770</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--2" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-mi3C5AkYQHeWP0q7CbtpRmkI9-wDATZliBpD8dFlGEM" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us">rate us </label>
+ <input type="text" id="edit-rate-us" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-f13adc4a6caee57d894f9d7ef192d7f3 rate-node-76-4-1" id="rate-node-76-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-3" rel="nofollow" href="/media-bias/media-bias-ratings?rate=zmyDLixxBj_ytZsb_p9D32b0gPWtDEaeOSu_YIdkTIc" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-4" rel="nofollow" href="/media-bias/media-bias-ratings?rate=NVPEc99dVr71u-M_u1Cs0cncQHY5eU_UZwtkj7Sq23k" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">12337</span>/<span class="disagree">8770</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/alternet">AlterNet</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-left.png?itok=Sv6g1qTT" width="144" height="24" alt="Political News Media Bias Rating: Left" title="Political News Media Bias Rating: Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-2b1f60c961dc50f82b5aaa18cabc773c rate-node-30647-4-1" id="rate-node-30647-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-7" rel="nofollow" href="/media-bias/media-bias-ratings?rate=_-JlLV9O1WQ9l4nJ9VFChdzQUwsyCSi5eQmbZraMoH0" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-8" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6cxMxLDie13aHEc-sdXNIXTdPBd_SB-pNzhWtc9zN9A" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">2517</span>/<span class="disagree">760</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--2" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--4" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--2" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-g93I_A53JvD39kpKq9N1mIT3U-kt-CUsZwNo1DaV2VE" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--2">rate us </label>
+ <input type="text" id="edit-rate-us--2" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-2b1f60c961dc50f82b5aaa18cabc773c rate-node-30647-4-1" id="rate-node-30647-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-7" rel="nofollow" href="/media-bias/media-bias-ratings?rate=_-JlLV9O1WQ9l4nJ9VFChdzQUwsyCSi5eQmbZraMoH0" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-8" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6cxMxLDie13aHEc-sdXNIXTdPBd_SB-pNzhWtc9zN9A" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">2517</span>/<span class="disagree">760</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/american-spectator">American Spectator</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/right"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-right.png?itok=FtdBR51E" width="144" height="24" alt="Political News Media Bias Rating: Right" title="Political News Media Bias Rating: Right" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-cce3d38efce902435a82f4f954379995 rate-node-10792-4-1" id="rate-node-10792-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-11" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6xTwvfWvHXDPL14lI8Mzj5WjMXY6mky2q1Tb7k3g1oE" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-12" rel="nofollow" href="/media-bias/media-bias-ratings?rate=cOcBmH4KwNYB_L2XxafJ4fUk4oqJ3EmfEd3TU-Y1N1o" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6344</span>/<span class="disagree">2667</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--3" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--6" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--3" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-5iqJ---fsyj2OVsXIcbbhJLGulxYCc0AtYzfwHOTD6I" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--3">rate us </label>
+ <input type="text" id="edit-rate-us--3" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-cce3d38efce902435a82f4f954379995 rate-node-10792-4-1" id="rate-node-10792-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-11" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6xTwvfWvHXDPL14lI8Mzj5WjMXY6mky2q1Tb7k3g1oE" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-12" rel="nofollow" href="/media-bias/media-bias-ratings?rate=cOcBmH4KwNYB_L2XxafJ4fUk4oqJ3EmfEd3TU-Y1N1o" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6344</span>/<span class="disagree">2667</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/associated-press-media-bias">Associated Press</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-center.png?itok=VqpFBlp8" width="144" height="24" alt="Political News Media Bias Rating: Center" title="Political News Media Bias Rating: Center" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-c1839f412d43f34ad588d9ac367a9b99 rate-node-3515-4-1" id="rate-node-3515-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-15" rel="nofollow" href="/media-bias/media-bias-ratings?rate=m7yKcAGDCw7UEs5H6KE0IjMM_HfLjE1hZSit7qPLf40" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-16" rel="nofollow" href="/media-bias/media-bias-ratings?rate=ncEdk8pgfqgLaPuVerqwUnPF_E8eClZ3Daz3IQ9R4jk" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6973</span>/<span class="disagree">5000</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--4" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--8" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--4" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-FWbHIja_p0bS-AkL8slB_ABxPhDsVGER8VyEYqwJQXA" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--4">rate us </label>
+ <input type="text" id="edit-rate-us--4" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-c1839f412d43f34ad588d9ac367a9b99 rate-node-3515-4-1" id="rate-node-3515-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-15" rel="nofollow" href="/media-bias/media-bias-ratings?rate=m7yKcAGDCw7UEs5H6KE0IjMM_HfLjE1hZSit7qPLf40" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-16" rel="nofollow" href="/media-bias/media-bias-ratings?rate=ncEdk8pgfqgLaPuVerqwUnPF_E8eClZ3Daz3IQ9R4jk" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6973</span>/<span class="disagree">5000</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/bbc-news-media-bias">BBC News</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-center.png?itok=VqpFBlp8" width="144" height="24" alt="Political News Media Bias Rating: Center" title="Political News Media Bias Rating: Center" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-a3e6e9c879d414ff87e103463c7522ed rate-node-11928-4-1" id="rate-node-11928-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-19" rel="nofollow" href="/media-bias/media-bias-ratings?rate=XIlSP7nR4uazLjDZRORUxcbrQmrhFNWPNjL_wa1uuSA" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-20" rel="nofollow" href="/media-bias/media-bias-ratings?rate=IcmTtTAwmlqFhtuai3H-U3_mxSFnRgsuzgB5gjt8Fzo" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">10095</span>/<span class="disagree">9823</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--5" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--10" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--5" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-TkVb-XHBcpvJ5wwn1VQNJMpDu5MjT6lAB5_lH8nGHq8" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--5">rate us </label>
+ <input type="text" id="edit-rate-us--5" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-a3e6e9c879d414ff87e103463c7522ed rate-node-11928-4-1" id="rate-node-11928-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-19" rel="nofollow" href="/media-bias/media-bias-ratings?rate=XIlSP7nR4uazLjDZRORUxcbrQmrhFNWPNjL_wa1uuSA" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-20" rel="nofollow" href="/media-bias/media-bias-ratings?rate=IcmTtTAwmlqFhtuai3H-U3_mxSFnRgsuzgB5gjt8Fzo" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">10095</span>/<span class="disagree">9823</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/bloomberg-media-bias">Bloomberg</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-center.png?itok=VqpFBlp8" width="144" height="24" alt="Political News Media Bias Rating: Center" title="Political News Media Bias Rating: Center" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-0617f4149938573d3381693a985db1d6 rate-node-873-4-1" id="rate-node-873-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-23" rel="nofollow" href="/media-bias/media-bias-ratings?rate=fxI8BAqom7BAZ97WTTFOL6_Nr3ZpUU4ml7KZpVaWgzM" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-24" rel="nofollow" href="/media-bias/media-bias-ratings?rate=ZoXPxZuenEi7Sz5WHrB0Og_JxKJtbqsKLm0dhUFa8w8" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">5744</span>/<span class="disagree">6689</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--6" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--12" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--6" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-z-dlyMCCymAm2ToRtaizrSzd6asMns7zGvMVbe3hw0E" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--6">rate us </label>
+ <input type="text" id="edit-rate-us--6" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-0617f4149938573d3381693a985db1d6 rate-node-873-4-1" id="rate-node-873-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-23" rel="nofollow" href="/media-bias/media-bias-ratings?rate=fxI8BAqom7BAZ97WTTFOL6_Nr3ZpUU4ml7KZpVaWgzM" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-24" rel="nofollow" href="/media-bias/media-bias-ratings?rate=ZoXPxZuenEi7Sz5WHrB0Og_JxKJtbqsKLm0dhUFa8w8" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">5744</span>/<span class="disagree">6689</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/breitbart">Breitbart News</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/right"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-right.png?itok=FtdBR51E" width="144" height="24" alt="Political News Media Bias Rating: Right" title="Political News Media Bias Rating: Right" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-623d9ca248a9fd498e67033943e40078 rate-node-11344-4-1" id="rate-node-11344-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-27" rel="nofollow" href="/media-bias/media-bias-ratings?rate=yfQnsXDHTHerMI7xB0qmaJAWNYxI5lDgeIKG-ofb4N4" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-28" rel="nofollow" href="/media-bias/media-bias-ratings?rate=2f8YXtE1v-4uV-pq0o4Z4AYaKhcpGG4AxiaU2JOGD54" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">15336</span>/<span class="disagree">7898</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--7" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--14" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--7" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-odcZ9xA0_xV2lSkGlF1TPqs8O7u918ThiTvqQxlNHuY" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--7">rate us </label>
+ <input type="text" id="edit-rate-us--7" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-623d9ca248a9fd498e67033943e40078 rate-node-11344-4-1" id="rate-node-11344-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-27" rel="nofollow" href="/media-bias/media-bias-ratings?rate=yfQnsXDHTHerMI7xB0qmaJAWNYxI5lDgeIKG-ofb4N4" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-28" rel="nofollow" href="/media-bias/media-bias-ratings?rate=2f8YXtE1v-4uV-pq0o4Z4AYaKhcpGG4AxiaU2JOGD54" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">15336</span>/<span class="disagree">7898</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/buzzfeed-media-bias">BuzzFeed News</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left-center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-leaning-left.png?itok=mtG3ToEN" width="144" height="24" alt="Political News Media Bias Rating: Lean Left" title="Political News Media Bias Rating: Lean Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-31ba41111fffad0e101a1be4e238ab08 rate-node-9193-4-1" id="rate-node-9193-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-31" rel="nofollow" href="/media-bias/media-bias-ratings?rate=tbL_YXp3iB_GWGGAL4dUGB7_NvHckpy3yqMr9e9uBhY" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-32" rel="nofollow" href="/media-bias/media-bias-ratings?rate=28RvuxclCmnyi_o5ZJtaTjZvf0yk-3_0QIB_arpt5qg" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">4379</span>/<span class="disagree">6181</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--8" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--16" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--8" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-D-ce6Ty6cUNyHJZR4pSRTt9okbrVz0e1oS_O4bL5jhg" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--8">rate us </label>
+ <input type="text" id="edit-rate-us--8" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-31ba41111fffad0e101a1be4e238ab08 rate-node-9193-4-1" id="rate-node-9193-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-31" rel="nofollow" href="/media-bias/media-bias-ratings?rate=tbL_YXp3iB_GWGGAL4dUGB7_NvHckpy3yqMr9e9uBhY" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-32" rel="nofollow" href="/media-bias/media-bias-ratings?rate=28RvuxclCmnyi_o5ZJtaTjZvf0yk-3_0QIB_arpt5qg" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">4379</span>/<span class="disagree">6181</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/cbs-news-media-bias">CBS News</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left-center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-leaning-left.png?itok=mtG3ToEN" width="144" height="24" alt="Political News Media Bias Rating: Lean Left" title="Political News Media Bias Rating: Lean Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-1a2e105442805358e48597da0a228146 rate-node-860-4-1" id="rate-node-860-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-35" rel="nofollow" href="/media-bias/media-bias-ratings?rate=2vbKLRg6CQzbZFuz7vnNkcAlBK0woeDmQOdJ19FpqJk" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-36" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6r5IRoNdFgTfyYxpbbK6txKnq_k5UV5-GtqB9iVLQCk" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6023</span>/<span class="disagree">4896</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--9" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--18" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--9" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-2avAUgcAsmgdN04MgNQFPkueBGz7eRd_GNevbrly6eE" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--9">rate us </label>
+ <input type="text" id="edit-rate-us--9" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-1a2e105442805358e48597da0a228146 rate-node-860-4-1" id="rate-node-860-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-35" rel="nofollow" href="/media-bias/media-bias-ratings?rate=2vbKLRg6CQzbZFuz7vnNkcAlBK0woeDmQOdJ19FpqJk" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-36" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6r5IRoNdFgTfyYxpbbK6txKnq_k5UV5-GtqB9iVLQCk" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6023</span>/<span class="disagree">4896</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/christian-science-monitor">Christian Science Monitor</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-center.png?itok=VqpFBlp8" width="144" height="24" alt="Political News Media Bias Rating: Center" title="Political News Media Bias Rating: Center" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-b833d62fd26ba3847ddbc92915781c82 rate-node-3893-4-1" id="rate-node-3893-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-39" rel="nofollow" href="/media-bias/media-bias-ratings?rate=i8apj2RfVEPM0P8HDH0ieBNMHCrQF7AeTkGuqphfyPk" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-40" rel="nofollow" href="/media-bias/media-bias-ratings?rate=XN_pqoIkGJhv2odS3Vy5xcvSfVMJCSs3ZK1P6XjyP04" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">8558</span>/<span class="disagree">11563</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--10" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--20" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--10" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-Hq21RygG4CPU2H1XaRzcwV71RIFHQEXPBmOMlmBNjPk" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--10">rate us </label>
+ <input type="text" id="edit-rate-us--10" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-b833d62fd26ba3847ddbc92915781c82 rate-node-3893-4-1" id="rate-node-3893-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-39" rel="nofollow" href="/media-bias/media-bias-ratings?rate=i8apj2RfVEPM0P8HDH0ieBNMHCrQF7AeTkGuqphfyPk" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-40" rel="nofollow" href="/media-bias/media-bias-ratings?rate=XN_pqoIkGJhv2odS3Vy5xcvSfVMJCSs3ZK1P6XjyP04" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">8558</span>/<span class="disagree">11563</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/cnn-media-bias">CNN (Web News)</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left-center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-leaning-left.png?itok=mtG3ToEN" width="144" height="24" alt="Political News Media Bias Rating: Lean Left" title="Political News Media Bias Rating: Lean Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-68bb590c716b884588972013540e580d rate-node-82-4-1" id="rate-node-82-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-43" rel="nofollow" href="/media-bias/media-bias-ratings?rate=3ADp-qRyBxvk7JBBa0SgyQFuu_YZt4eFlHUj_yAXm1g" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-44" rel="nofollow" href="/media-bias/media-bias-ratings?rate=N3lv1_TK4E56p8rEHpQOuwJnyEe5yml0CKE8Tq2GAF8" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">26577</span>/<span class="disagree">27390</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--11" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--22" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--11" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-mO-ciRM0wl2byNi2hmW-uG2Ux8I4J2YE5CP7SxZX2Jo" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--11">rate us </label>
+ <input type="text" id="edit-rate-us--11" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-68bb590c716b884588972013540e580d rate-node-82-4-1" id="rate-node-82-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-43" rel="nofollow" href="/media-bias/media-bias-ratings?rate=3ADp-qRyBxvk7JBBa0SgyQFuu_YZt4eFlHUj_yAXm1g" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-44" rel="nofollow" href="/media-bias/media-bias-ratings?rate=N3lv1_TK4E56p8rEHpQOuwJnyEe5yml0CKE8Tq2GAF8" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">26577</span>/<span class="disagree">27390</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/cnn-editorial">CNN - Editorial</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-left.png?itok=Sv6g1qTT" width="144" height="24" alt="Political News Media Bias Rating: Left" title="Political News Media Bias Rating: Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-332808861ca835b846e4c895f61b82f7 rate-node-80613-4-1" id="rate-node-80613-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-47" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6dBPeqYx8sqAi4FgBbnZ9afG9hV3Qh0K-jxTe_I3bQc" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-48" rel="nofollow" href="/media-bias/media-bias-ratings?rate=imuMYLig2BzMVrh24KbWNLTOP6THY-bs8pkm9kEgdrw" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6876</span>/<span class="disagree">2089</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--12" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--24" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--12" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-ROQ0rJyij49jvMDXuf45IHund8mtHiumL5gzBpk9PSs" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--12">rate us </label>
+ <input type="text" id="edit-rate-us--12" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-332808861ca835b846e4c895f61b82f7 rate-node-80613-4-1" id="rate-node-80613-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-47" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6dBPeqYx8sqAi4FgBbnZ9afG9hV3Qh0K-jxTe_I3bQc" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-48" rel="nofollow" href="/media-bias/media-bias-ratings?rate=imuMYLig2BzMVrh24KbWNLTOP6THY-bs8pkm9kEgdrw" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6876</span>/<span class="disagree">2089</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/daily-beast-media-bias">Daily Beast</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-left.png?itok=Sv6g1qTT" width="144" height="24" alt="Political News Media Bias Rating: Left" title="Political News Media Bias Rating: Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-0a4e7be143b6df6584de9544835cb0cd rate-node-7544-4-1" id="rate-node-7544-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-51" rel="nofollow" href="/media-bias/media-bias-ratings?rate=3oz7e8-XQaCRz13HZF40dRzmpPk-Cgk_fzu6iOmzKeE" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-52" rel="nofollow" href="/media-bias/media-bias-ratings?rate=Ka7o_kRJFMPPsjAIcikvyxHQh1mVKMkqzr4lHpFdLuc" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6672</span>/<span class="disagree">4074</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--13" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--26" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--13" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-lTbnUGAphHNGCbbFK3-oE5QzTd4GIhFpQEURFcCk_8U" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--13">rate us </label>
+ <input type="text" id="edit-rate-us--13" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-0a4e7be143b6df6584de9544835cb0cd rate-node-7544-4-1" id="rate-node-7544-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-51" rel="nofollow" href="/media-bias/media-bias-ratings?rate=3oz7e8-XQaCRz13HZF40dRzmpPk-Cgk_fzu6iOmzKeE" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-52" rel="nofollow" href="/media-bias/media-bias-ratings?rate=Ka7o_kRJFMPPsjAIcikvyxHQh1mVKMkqzr4lHpFdLuc" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">6672</span>/<span class="disagree">4074</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/daily-mail">Daily Mail</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/right"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-right.png?itok=FtdBR51E" width="144" height="24" alt="Political News Media Bias Rating: Right" title="Political News Media Bias Rating: Right" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-39a0c1d2f25c8146fdaf67866b62c5e3 rate-node-74629-4-1" id="rate-node-74629-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-55" rel="nofollow" href="/media-bias/media-bias-ratings?rate=Mr3YGTGjjlitWbjlNg0gjWcymgrjFxKt3YOzT9agRUA" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-56" rel="nofollow" href="/media-bias/media-bias-ratings?rate=1fb5QdUluw_2JscZ8gDzcubrC231ghWfZUD-4qXGNYE" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">1866</span>/<span class="disagree">1472</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--14" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--28" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--14" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-f_KELAQAxjA42aGIcrWUunu7m1vkEU1bjidS2_ecFfg" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--14">rate us </label>
+ <input type="text" id="edit-rate-us--14" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-39a0c1d2f25c8146fdaf67866b62c5e3 rate-node-74629-4-1" id="rate-node-74629-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-55" rel="nofollow" href="/media-bias/media-bias-ratings?rate=Mr3YGTGjjlitWbjlNg0gjWcymgrjFxKt3YOzT9agRUA" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-56" rel="nofollow" href="/media-bias/media-bias-ratings?rate=1fb5QdUluw_2JscZ8gDzcubrC231ghWfZUD-4qXGNYE" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">1866</span>/<span class="disagree">1472</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/democracy-now">Democracy Now</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-left.png?itok=Sv6g1qTT" width="144" height="24" alt="Political News Media Bias Rating: Left" title="Political News Media Bias Rating: Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-1915d276670f53a00baba5add5436d4f rate-node-11409-4-1" id="rate-node-11409-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-59" rel="nofollow" href="/media-bias/media-bias-ratings?rate=QxKKFpNimNnTFj8TlUi-i2nvRUSxj2xt2bNyBvPM5O4" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-60" rel="nofollow" href="/media-bias/media-bias-ratings?rate=yYimyaYnCvzV9DreUHrcR4BmThPCPsHoW1NUsvdgX9A" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">4664</span>/<span class="disagree">1756</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--15" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--30" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--15" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-wIxCjKabDBA2GR7uTxHZkTCr8PdARMnMPMjCJTZY6fM" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--15">rate us </label>
+ <input type="text" id="edit-rate-us--15" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-1915d276670f53a00baba5add5436d4f rate-node-11409-4-1" id="rate-node-11409-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-59" rel="nofollow" href="/media-bias/media-bias-ratings?rate=QxKKFpNimNnTFj8TlUi-i2nvRUSxj2xt2bNyBvPM5O4" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-60" rel="nofollow" href="/media-bias/media-bias-ratings?rate=yYimyaYnCvzV9DreUHrcR4BmThPCPsHoW1NUsvdgX9A" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">4664</span>/<span class="disagree">1756</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/forbes">Forbes</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-center.png?itok=VqpFBlp8" width="144" height="24" alt="Political News Media Bias Rating: Center" title="Political News Media Bias Rating: Center" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-c62e75bca0489d726603c4bc31a0e73f rate-node-2824-4-1" id="rate-node-2824-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-63" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6U0xHMVHkqx2M55_z0gsmNNgj_GZ6MNqL_fp847Pl5c" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-64" rel="nofollow" href="/media-bias/media-bias-ratings?rate=nEAmhIcCXFuZPcA_R968MuVdfIXwQmuxWhKvxOiKv58" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">3170</span>/<span class="disagree">2072</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--16" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--32" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--16" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-TfcqwDyBo5CD3Pw0I3F86VP_6AXxQH3nl0YNBRBk13M" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--16">rate us </label>
+ <input type="text" id="edit-rate-us--16" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-c62e75bca0489d726603c4bc31a0e73f rate-node-2824-4-1" id="rate-node-2824-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-63" rel="nofollow" href="/media-bias/media-bias-ratings?rate=6U0xHMVHkqx2M55_z0gsmNNgj_GZ6MNqL_fp847Pl5c" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-64" rel="nofollow" href="/media-bias/media-bias-ratings?rate=nEAmhIcCXFuZPcA_R968MuVdfIXwQmuxWhKvxOiKv58" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">3170</span>/<span class="disagree">2072</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/fox-news-media-bias">Fox News</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/right-center"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-leaning-right.png?itok=8dt7sxsS" width="144" height="24" alt="Political News Media Bias Rating: Lean Right" title="Political News Media Bias Rating: Lean Right" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-59804fdf9ef71d9feba65cacb04d1322 rate-node-84-4-1" id="rate-node-84-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-67" rel="nofollow" href="/media-bias/media-bias-ratings?rate=vuwUybvZFroPj2nQSMPR5LJpMVdz6BwyHheihlu9iaY" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-68" rel="nofollow" href="/media-bias/media-bias-ratings?rate=kWlpZXx6lJDys9oJaEqUPkigFaL8ke4ww52wDxRK944" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">21127</span>/<span class="disagree">30617</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--17" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--34" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--17" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-daf9R88gLSAyWTAy-BVfmxPwLvXLw0dG_NYbPAEjLy0" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--17">rate us </label>
+ <input type="text" id="edit-rate-us--17" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-59804fdf9ef71d9feba65cacb04d1322 rate-node-84-4-1" id="rate-node-84-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-67" rel="nofollow" href="/media-bias/media-bias-ratings?rate=vuwUybvZFroPj2nQSMPR5LJpMVdz6BwyHheihlu9iaY" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-68" rel="nofollow" href="/media-bias/media-bias-ratings?rate=kWlpZXx6lJDys9oJaEqUPkigFaL8ke4ww52wDxRK944" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">21127</span>/<span class="disagree">30617</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/fox-news-editorial-media-bias">Fox News Opinion</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/right"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-right.png?itok=FtdBR51E" width="144" height="24" alt="Political News Media Bias Rating: Right" title="Political News Media Bias Rating: Right" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-a329cfbc1f799b47e52dd72d6bffa124 rate-node-81801-4-1" id="rate-node-81801-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-71" rel="nofollow" href="/media-bias/media-bias-ratings?rate=UWrGICJA6xKlbZCLykn4Fj5epnyeCWURx6vdnz7KqNg" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-72" rel="nofollow" href="/media-bias/media-bias-ratings?rate=eIaK_GnvYRFljX-THi1eoHVriQKiJyjDdeDYFwZEkuU" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">4565</span>/<span class="disagree">1272</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--18" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--36" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--18" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-Q43Tk_gVPsMuCMDsvzyg7HoBjtlvmbMj8T6L1JUma9A" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--18">rate us </label>
+ <input type="text" id="edit-rate-us--18" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-a329cfbc1f799b47e52dd72d6bffa124 rate-node-81801-4-1" id="rate-node-81801-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-71" rel="nofollow" href="/media-bias/media-bias-ratings?rate=UWrGICJA6xKlbZCLykn4Fj5epnyeCWURx6vdnz7KqNg" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-72" rel="nofollow" href="/media-bias/media-bias-ratings?rate=eIaK_GnvYRFljX-THi1eoHVriQKiJyjDdeDYFwZEkuU" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">4565</span>/<span class="disagree">1272</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/huffpost-media-bias">HuffPost</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-left.png?itok=Sv6g1qTT" width="144" height="24" alt="Political News Media Bias Rating: Left" title="Political News Media Bias Rating: Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-8af2970090745fa4286f4c9a1a9fba13 rate-node-85-4-1" id="rate-node-85-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-75" rel="nofollow" href="/media-bias/media-bias-ratings?rate=AgALHPwNcwc4Xgd8fkCUZZVBkaKLp9XsGNnXSZNp1mE" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-76" rel="nofollow" href="/media-bias/media-bias-ratings?rate=0Y0mJY15LQ2dtqBG0M7KUHLN4ns3C4buP7Hrukyczgo" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">19002</span>/<span class="disagree">19589</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--19" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--38" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--19" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-ioHxUAk_ClEa9CYSxRGnrV1gkV8bImDEUvaRXo4yuQg" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--19">rate us </label>
+ <input type="text" id="edit-rate-us--19" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-8af2970090745fa4286f4c9a1a9fba13 rate-node-85-4-1" id="rate-node-85-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-75" rel="nofollow" href="/media-bias/media-bias-ratings?rate=AgALHPwNcwc4Xgd8fkCUZZVBkaKLp9XsGNnXSZNp1mE" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-76" rel="nofollow" href="/media-bias/media-bias-ratings?rate=0Y0mJY15LQ2dtqBG0M7KUHLN4ns3C4buP7Hrukyczgo" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">19002</span>/<span class="disagree">19589</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+          <tr  class="even views-row-last">
+                  <td  class="views-field views-field-title source-title">
+            <a href="/news-source/mother-jones-bias">Mother Jones</a>          </td>
+                  <td  class="views-field views-field-field-bias-image">
+            <a href="/media-bias/left"><img typeof="foaf:Image" src="https://www.allsides.com/sites/default/files/styles/bias144x24/public/bias-left.png?itok=Sv6g1qTT" width="144" height="24" alt="Political News Media Bias Rating: Left" title="Political News Media Bias Rating: Left" /></a>          </td>
+                  <td  class="views-field views-field-nothing-1 what-do-you-think">
+            <div class="agree-disagree-widget"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-f5c29463c763da577532a3f0b989bd78 rate-node-5787-4-1" id="rate-node-5787-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-79" rel="nofollow" href="/media-bias/media-bias-ratings?rate=aOP3iDiq_qBjSJvWNvDUJIfjY6CbTZwRiuPqtqkRnIo" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-80" rel="nofollow" href="/media-bias/media-bias-ratings?rate=oWvg5Ts41mmGjO4bm0be5CFBDKxXj371JAoyibnnL04" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">4379</span>/<span class="disagree">907</span>
+<br>
+
+</div>
+</div></div>
+<div class="bias-fivestar-rating-widget">
+<p class="how-do-you-think">How do you think the bias of this source should be rated?</p>
+<form class="fivestar-widget" action="/media-bias/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI" method="post" id="fivestar-custom-widget--20" accept-charset="UTF-8"><div><div  class="clearfix fivestar-user-stars fivestar-form-item fivestar-allsides-stars-12"><div class="form-item form-type-fivestar form-item-vote">
+ <div class="form-item form-type-select form-item-vote">
+ <select id="edit-vote--40" name="vote" class="form-select"><option value="-">Select rating</option><option value="20">Bias: Left</option><option value="40">Bias: Leaning Left</option><option value="60">Bias: Center</option><option value="80">Bias: Leaning Right</option><option value="100">Bias: Right</option><option value="0" selected="selected">Cancel rating</option></select>
+</div>
+
+</div>
+</div><input class="fivestar-submit form-submit" type="submit" id="edit-fivestar-submit--20" name="op" value="Rate" /><input type="hidden" name="form_build_id" value="form-RvJDRoO9oHpADW-9MbrfGXPer2du3xZnPP_OuT8pmI0" />
+<input type="hidden" name="form_id" value="fivestar_custom_widget" />
+<div class="edit-rate-us-wrapper"><div class="form-item form-type-textfield form-item-rate-us">
+  <label for="edit-rate-us--20">rate us </label>
+ <input type="text" id="edit-rate-us--20" name="rate_us" value="" size="20" maxlength="128" class="form-text" />
+<div class="description">To prevent automated spam submissions leave this field empty.</div>
+</div>
+</div></div></form>
+<p class="fivestar-confirmation"></p>
+</div>
+          </td>
+                  <td  class="views-field views-field-nothing community-feedback">
+            <div class="getratingval"><div class="rate-widget-4 rate-widget clear-block rate-average rate-widget-yesno rate-f5c29463c763da577532a3f0b989bd78 rate-node-5787-4-1" id="rate-node-5787-4-1">
+<div class="item-list"><ul><li class="first"><a class="rate-button rate-btn" id="rate-button-79" rel="nofollow" href="/media-bias/media-bias-ratings?rate=aOP3iDiq_qBjSJvWNvDUJIfjY6CbTZwRiuPqtqkRnIo" title="agree">agree</a></li>
+<li class="last"><a class="rate-button rate-btn" id="rate-button-80" rel="nofollow" href="/media-bias/media-bias-ratings?rate=oWvg5Ts41mmGjO4bm0be5CFBDKxXj371JAoyibnnL04" title="disagree">disagree</a></li>
+</ul></div>
+
+<div class="rate-details">
+
+<span class="agree">4379</span>/<span class="disagree">907</span>
+<br>
+
+</div>
+</div></div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+      	
+    </div>
+  
+<!-- here -->
+
+  
+    
+   <small><h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/media-bias/media-bias-ratings?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/media-bias/media-bias-ratings?page=2">3</a></li>
+<li class="pager-next"><a title="Go to next page" href="/media-bias/media-bias-ratings?page=1">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/media-bias/media-bias-ratings?page=2">last »</a></li>
+</ul></div> 
+      <div class="view-footer">
+      <div style="padding-top:30px;font-size: 14px;text-align:center;">
+<a href="/media-bias/media-bias-ratings?field_featured_bias_rating_value=All&field_news_source_type_tid[1]=1&field_news_source_type_tid[2]=2&field_news_source_type_tid[3]=3" class="changeFilter btn btn-large btn-success"><p style="font-weight:bold;margin:10px 0 5px;">See all 600 Media Bias Ratings</p><p style="font-size:75%;">Only featured sources are shown by default.</p></a>
+</div>
+
+<hr style="margin: 20px 0;" />
+
+<div id="creativecommons">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img style="margin-bottom: 10px;" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
+<p><a xmlns:dct="http://purl.org/dc/terms/" href="https://www.allsides.com/media-bias/media-bias-ratings" rel="dct:source"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">AllSides Media Bias Ratings</span></a> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.allsides.com/unbiased-balanced-news" property="cc:attributionName" rel="cc:attributionURL">AllSides.com</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. You may use this data for research or noncommercial purposes provided you include this attribution.</p>
+<p style="margin-top: 5px;">For commercial use, or to request this data as a CSV or JSON file, <a href="https://www.allsides.com/contact">contact us</a>.</p>
+</div>    </div>
+  
+  
+</div>                      </div><!-- /#content -->
+
+        
+        </div> <!-- END .span8 or .span4 -->
+
+        
+
+
+
+
+
+
+
+      </div><!-- /.normal-body-->
+    
+  </div><!-- /#main -->
+
+</div><!-- /#page -->
+
+<div class="container">
+        <div class="row-fluid bias-trio-wrapper">
+          <div class="span4">
+                      </div>
+
+          <div class="span4">
+                      </div>
+
+          <div class="span4 fixit-class">
+                      </div>
+        </div>
+      </div><!-- /.container -->
+      </div>
+  <footer id="footer" class="region region-footer">
+    <div id="block-block-11" class="block block-block first last odd">
+  
+  	  
+      	
+  <div class="footer-box ">     
+<div class="container">
+<div class="row-fluid"> 
+      <div class="menu span2" style="font-size:18px;" class="follow-buttons">
+                    <a style="margin: 0 5px;" href="https://www.facebook.com/AllSidesNow" title="AllSides's Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a style="margin: 0 5px;" href="https://twitter.com/AllSidesNow" title="AllSides's Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+      <div class="menu span8">
+        <a href="http://www.allsides.com">Home</a>
+       <img src="/sites/all/themes/allsides/images/divider-menu-vertical.png" alt="Divider">
+       <a href="/media-bias/media-bias-ratings">Media Bias</a>
+       <img src="/sites/all/themes/allsides/images/divider-menu-vertical.png" alt="Divider">
+       <a href="/about">About AllSides</a>
+       <img src="/sites/all/themes/allsides/images/divider-menu-vertical.png" alt="Divider">
+       <a href="/about/press-bias-ratings-school-programs">Press Coverage</a>
+      <img src="/sites/all/themes/allsides/images/divider-menu-vertical.png" alt="Divider">
+       <a href="/content/terms-use">Terms of Use</a>
+      <img src="/sites/all/themes/allsides/images/divider-menu-vertical.png" alt="Divider">
+       <a href="/content/privacy-policy">Privacy Policy</a>
+    </div>
+      <div class="copyrights span2">
+                   
+        <span class="allsides">AllSides.com</span>
+        <span>2019</span><br />
+     </div>
+
+ </div>
+</div>
+</div>
+</div><!-- /.block -->
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.allsides.com/sites/default/files/js/js_dWhBODswdXXk1M5Z5nyqNfGljmqwxUwAK9i6D0YSDNs.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script>window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")</script>
+<script src="https://www.allsides.com/sites/default/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script src="https://www.allsides.com/sites/default/files/js/js_A9L4r8yYduDTcfvxcWiWcvMjLtR8W_pbmiUP0N5HB6U.js"></script>
+<script src="https://www.allsides.com/sites/default/files/js/js_aqaJ0UtQbAMHqPybXSIrFAouCvPXXoQHrC4MpelK8RM.js"></script>
+<script src="https://www.allsides.com/sites/default/files/js/js_QXHADmYMrKR8cFVod4s-duLvSjRBEEFdBkl95LkXr-s.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"allsides","theme_token":"D1iack4zAOUe1fZ5RJynZ4mNZRtnuSh0ESt3ZRvwRHs","jquery_version":"1.7","js":{"sites\/all\/modules\/browserclass\/browserclass.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.2\/jquery.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/allsides_issue\/allsides_issue.js":1,"sites\/all\/modules\/zurb_responsive_tables\/js\/responsive-tables.js":1,"profiles\/drupal_wiki\/modules\/extlink\/extlink.js":1,"misc\/progress.js":1,"sites\/all\/modules\/rate\/rate.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"sites\/all\/modules\/fivestar\/js\/fivestar.js":1,"sites\/all\/modules\/fivestar\/js\/fivestar.ajax.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/better_exposed_filters\/better_exposed_filters.js":1,"profiles\/drupal_wiki\/modules\/ctools\/js\/auto-submit.js":1,"sites\/all\/modules\/hybridauth\/js\/hybridauth.modal.js":1,"sites\/all\/themes\/allsides\/js\/allsides-functions.js":1,"sites\/all\/modules\/hybridauth\/js\/hybridauth.onclick.js":1,"sites\/all\/themes\/allsides\/js\/AllsidesTracker.js":1,"sites\/all\/themes\/allsides\/js\/jquery.expander.min.js":1,"sites\/all\/themes\/allsides\/js\/bootstrap.js":1,"sites\/all\/themes\/allsides\/js\/slimscroll\/jquery.slimscroll.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.slider.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/zurb_responsive_tables\/css\/responsive-tables.css":1,"profiles\/drupal_wiki\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"profiles\/drupal_wiki\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/rate\/rate.css":1,"sites\/all\/modules\/tagclouds\/tagclouds.css":1,"sites\/all\/modules\/rate\/templates\/yesno\/yesno.css":1,"sites\/all\/modules\/fivestar\/css\/fivestar.css":1,"sites\/all\/modules\/fivestar\/widgets\/allsides\/allsides-stars-12.css":1,"public:\/\/spamicide\/rate_us.css":1,"sites\/all\/themes\/allsides\/css\/allsides-uncompressed.css":1,"sites\/all\/modules\/hybridauth\/css\/hybridauth.css":1,"sites\/all\/modules\/hybridauth\/css\/hybridauth.modal.css":1,"sites\/all\/modules\/allsides_hybridauth_tweak\/plugins\/icon_pack\/allsides_32\/allsides_32.css":1,"sites\/all\/themes\/allsides\/system.menus.css":1,"sites\/all\/themes\/allsides\/css\/bootstrap.css":1,"sites\/all\/themes\/allsides\/css\/allsides.css":1,"sites\/all\/themes\/allsides\/css\/allsides-home.css":1,"sites\/all\/themes\/allsides\/css\/allsides-taxonomy.css":1,"sites\/all\/themes\/allsides\/css\/allsides-carousel.css":1,"sites\/all\/themes\/allsides\/css\/allsides-header.css":1,"sites\/all\/themes\/allsides\/css\/allsides-responsive.css":1,"sites\/all\/themes\/allsides\/css\/allsides-new-home.css":1,"sites\/all\/themes\/allsides\/css\/allsides-user.css":1,"sites\/all\/themes\/allsides\/css\/allsides-topics.css":1,"sites\/all\/themes\/allsides\/css\/allsides-update.css":1}},"better_exposed_filters":{"datepicker":false,"slider":false,"settings":[],"autosubmit":false,"views":{"allsides_daily_administration_news_sources":{"displays":{"page_1":{"filters":{"field_featured_bias_rating_value":{"required":false},"field_news_source_type_tid":{"required":false},"field_news_bias_nid_1":{"required":false},"title":{"required":false}}}}},"logged_in_user_":{"displays":{"block":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/media-bias\/media-bias-ratings":true,"\/system\/ajax":true,"\/media-bias\/media-bias-ratings?fbclid=IwAR33_SQg0NAuftHab66i8Xmoe0fkZSwjrosay0Xq_S1r1rziOXh9CAYlAYI":true,"\/views\/ajax":true,"\/allsides-search-results":true},"rate":{"basePath":"\/rate\/vote\/js","destination":"bias\/bias-ratings"},"ajax":{"edit-vote--2":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--4":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--6":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--8":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--10":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--12":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--14":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--16":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--18":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--20":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--22":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--24":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--26":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--28":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--30":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--32":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--34":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--36":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--38":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}},"edit-vote--40":{"callback":"fivestar_ajax_submit","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"vote"}}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:68e8027772647378c2789ad5549cd962":{"view_name":"allsides_daily_administration_news_sources","view_display_id":"page_1","view_args":"","view_path":"bias\/bias-ratings","view_base_path":"bias\/bias-ratings","view_dom_id":"68e8027772647378c2789ad5549cd962","pager_element":0}}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"}});</script>
+  <script src="https://www.allsides.com/sites/default/files/js/js_pMpn-aGMsGKgMnAtmxLe-SZAZXUOnXxQqYAoiRN9DJI.js"></script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '555035668344688',
+      xfbml      : true,
+      version    : 'v3.2'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    
+<!-- START Google Analytics -->  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29313224-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- END Google Analytics -->
+
+<!-- START GA Tracking Code -->
+<script type="text/javascript">
+addLinkerEvents();
+</script>
+<!-- END GA Tracking Code -->
+<script type="text/javascript">var frontPageName = "";    </script>
+<script type="text/javascript">var siteUrl = "https://www.allsides.com/media-bias/media-bias-ratings";</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fe30af344148e66"></script>-->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c3d6ea5da95b60013d4a79d&product=inline-share-buttons' async='async' defer="defer"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8c618e2651","applicationID":"3994355","transactionName":"M1NTZkdRXhJWWhUMCQoZcFFBWV8PGE8IABEXaUFTUlU=","queueTime":0,"applicationTime":940,"atts":"HxRQEA9LTRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
