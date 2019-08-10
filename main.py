@@ -8,23 +8,32 @@ page_html = client.read()
 client.close()
 
 page_soup = soup(page_html, "html.parser")
-containers = page_soup.findAll("div", {"class":"jobsearch-SerpJobCard unifiedRow row result"})
+containers = page_soup.findAll("div", {"class": "jobsearch-SerpJobCard unifiedRow row result"})
 
-total = len(containers)
-counter = 0;
+# total = len(containers)
+# counter = 0;
+
+file = "jobs.csv"
+f = open(file,"w")
+headers = "company, title, summary\n"
+f.write(headers)
+
 for container in containers:
-    
-    company_container = container.findAll("span",{'class':'company'})
+    company_container = container.findAll("span", {'class': 'company'})
     company = company_container[0].text.strip()
-    counter += 1
+    #counter += 1
 
     title = container.div.a["title"]
 
-    summary_container = container.find("div",{'class':'summary'})
+    summary_container = container.find("div", {'class': 'summary'})
     summary = summary_container.text.strip()
 
-    print("company: " + company)
-    print("title: " + title)
-    print("summary: " + summary + "\n")
+    f.write(company + "," + title + "," + summary.replace(",", ";") + "\n")
 
-print(str(counter) + "/" + str(total) + " results shown")
+f.close()
+
+    # print("company: " + company)
+    # print("title: " + title)
+    # print("summary: " + summary + "\n")
+
+# print(str(counter) + "/" + str(total) + " results shown")
