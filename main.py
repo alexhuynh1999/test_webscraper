@@ -8,5 +8,9 @@ page_html = client.read()
 client.close()
 
 page_soup = soup(page_html, "html.parser")
-results = page_soup.findAll("td", {"id":"resultsCol"})
-containers = page_soup.findAll("div",{"class":"jobsearch-SerpJobCard unifiedRow row result"})
+containers = page_soup.findAll("div", {"class":"jobsearch-SerpJobCard unifiedRow row result"})
+
+for container in containers:
+    company = container.find("a",{'data-tn-element':"companyName"}).text.strip()
+    title = container.div.a["title"]
+    summary = container.find("div",{'class':'summary'}).text.strip()
