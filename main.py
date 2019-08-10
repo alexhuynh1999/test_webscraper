@@ -13,12 +13,10 @@ containers = page_soup.findAll("div", {"class":"jobsearch-SerpJobCard unifiedRow
 total = len(containers)
 counter = 0;
 for container in containers:
-    try:
-        company_container = container.findAll("span",{'class':'company'})
-        company = company_container[0].a.text.strip()
-        counter += 1
-    except:
-        print("")
+    
+    company_container = container.findAll("span",{'class':'company'})
+    company = company_container[0].text.strip()
+    counter += 1
 
     title = container.div.a["title"]
 
